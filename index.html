@@ -4,38 +4,43 @@
         <title>Intuit Accounts - Sign Up</title>
         <meta http-equiv="X-UA-Compatible" content="IE=Edge">
         <meta charset="UTF-8">
-        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         <link href="style.css" rel="stylesheet">
     </head>
     <body>
         <nav>
-            <div class="text-container">
-                Already have an Intuit account?
-                <a href="#">I forgot my User ID or Password</a>
-            </div>
-            <button>
-                <i class="material-icons">lock</i>
+            <div class="text-container"><!--
+                -->Already have an Intuit account?
+                <a href="#">I forgot my User ID or Password</a><!--
+            --></div>
+            <button class="sign-in">
+                <img src="assets/white-lock-icon.png" alt="White lock icon" height="13.5px">
                 Sign In
             </button>
         </nav>
         <header>
             <img src="assets/intuit-logo.png" alt="Intuit logo" width="118px" height="35px">
-            <img src="assets/mint-favicon.svg" alt="Mint favicon" width="23px" height="23px">
-            <img src="assets/mint-text.svg" alt="Mint text" width="37px" height="20px">
-            <img src="assets/quickbooks-favicon.svg" alt="QuickBooks favicon" width="23px" height="23px">
-            <img src="assets/quickbooks-text.svg" alt="QuickBooks text" width="98px" height="22px">
-            <img src="assets/turbotax-favicon.svg" alt="TurboTax favicon" width="23px" height="23px">
-            <img src="assets/turbotax-text.svg" alt="TurboTax text" width="74px" height="22px">
+            <ul>
+                <li>
+                    <img src="assets/mint-favicon.svg" alt="Mint favicon" width="23px" height="23px">
+                    <img src="assets/mint-text.svg" alt="Mint text" width="37px" height="20px">
+                </li>
+                <li>
+                    <img src="assets/quickbooks-favicon.svg" alt="QuickBooks favicon" width="23px" height="23px">
+                    <img src="assets/quickbooks-text.svg" alt="QuickBooks text" width="98px" height="22px">
+                </li>
+                <li>
+                    <img src="assets/turbotax-favicon.svg" alt="TurboTax favicon" width="23px" height="23px">
+                    <img src="assets/turbotax-text.svg" alt="TurboTax text" width="74px" height="22px">
+                </li>
+            </ul>
         </header>
         <main>
+            <h2><!--
+                -->One Account.
+                Everything Intuit.<!--
+            --></h2>
+            <p>Create an account for all of Intuit's products including Mint. <a href="#">Learn more</a></p>
             <form action="#" method="post">
-                <h2>
-                    One Account.
-                    Everything Intuit.
-                </h2>
-                <p>
-                    Create an account for all of Intuit's products including Mint. <a href="#">Learn more</a>
-                </p>
                 <fieldset class="account-info">
                     <label>
                         Email address
@@ -44,10 +49,8 @@
                     <label>
                         Phone (recommended)
                         <input type="tel" name="phone">
+                        <small>Standard call, messaging or data rates may apply.</small>
                     </label>
-                    <small>
-                        Standard call, messaging or data rates may apply.
-                    </small>
                     <label>
                         Password
                         <input type="password" name="password" required>
@@ -55,23 +58,23 @@
                 </fieldset>
                 <fieldset class="account-action">
                     <button name="create-account">
-                        <i class="material-icons">lock</i>
+                        <img src="assets/white-lock-icon.png" alt="White lock icon" height="16px">
                         Create Account
                     </button>
-                    <small>
-                        By clicking Create Account, you agree to our <a href="#">License Agreement</a> and have read and acknowledge our <a href="#">Privacy Statement</a>.
-                    </small>
                 </fieldset>
-                <small>
-                    Invisible reCAPTCHA by Google <a href="#">Privacy Policy</a> and <a href="#">Terms of Use</a>.
-                </small>
             </form>
+            <small>
+                By clicking Create Account, you agree to our
+                <a href="#">License Agreement</a> and have read and acknowledge
+                our <a href="#">Privacy Statement</a>.
+            </small>
         </main>
+        <div class="small-container">
+            <small>Invisible reCAPTCHA by Google <a href="#">Privacy Policy</a> and <a href="#">Terms of Use</a>.</small>
+        </div>
         <footer>
             <small>
-                <a href="#">Legal</a>
-                <a href="#">Privacy</a>
-                <a href="#">Security</a>
+                <a href="#">Legal</a><a href="#">Privacy</a><a href="#">Security</a>
                 © 2019 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB, TurboTax, ProConnect and Mint are registered trademarks of Intuit Inc.
                 Terms and conditions, features, support, pricing, and service options subject to change without notice.
             </small>
