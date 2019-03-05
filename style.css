@@ -85,11 +85,11 @@ button {
 button img {
   margin-right: 8px;
 }
-button:focus {
-  outline: 3px dotted #000;
-}
 button::-moz-focus-inner {
   border: 0;
+}
+button:focus {
+  outline: 3px dotted #000;
 }
 small {
   display: block;
